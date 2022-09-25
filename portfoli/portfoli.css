@@ -28,16 +28,15 @@ body{
 
 /*--------------------------------pc-----------------------------------------------------*/
 
-@media(min-width: 700px) {
+@media(min-width: 800px) {
 
   .headerindex {
     width: 100%;
-    background-color:var(--fundo);
+    background-color:#581B98;
     display: flex;
     margin-left: auto;
     margin-right: auto;
     text-align: right;
-    background: #581B98;
   }
 
   a {
@@ -188,11 +187,9 @@ body{
 
   .box_servicos{
     display: inline-grid;
-    grid-template-columns: 20% 20% 20% 20% 20% 20%;
+    grid-template-columns: 10% 10% 10% 10% 10% 10%;
     margin-bottom: 20px;
-    gap: 40px;
-    padding-left: 30px;
-    
+    gap: 4rem;
   }
   
   .div_tec{
@@ -306,8 +303,9 @@ body{
 
 @media(max-width: 820px) {
 
+
   .headerindex {
-    width: 90%;
+    width: 100%;
     background-color:var(--fundo);
     display: flex;
     margin-left: auto;
@@ -366,17 +364,23 @@ body{
 
   .boxhome{
     border-radius: 8px;
-    width: 90%;
+    width: 100%;
     display: flex;
     flex-direction: column;
     margin-left: auto;
     margin-right: auto;
+    padding-left: 1rem;
     
+  }
+
+  .div_nome_baner{
+    display: flex;
+    flex-direction: column;
   }
   .div_baner{
     width: 100%;
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
   }
 
   .txt_somos {
@@ -407,8 +411,7 @@ body{
   .img_baner{
     width: 200px;
     height: 200px;
-    border-radius: 5%;
-    
+    border-radius: 5%; 
     margin: 0px 16px 16px 0px;
     animation: backInLeft; 
     animation-duration: 2s;
@@ -432,10 +435,10 @@ body{
 
   .box_servicos{
     display: inline-grid;
-    grid-template-columns: 80% 80%;
+    grid-template-columns: 30% 30% 30%;
     margin-bottom: 20px;
-    gap: 40px;
-    padding-left: 30px;
+    gap: 1rem;
+
   }
   
   .div_tec{
