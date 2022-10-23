@@ -462,12 +462,7 @@ body{
     
    }
   
-  .box_certificados{
-     display: flex;
-     width: 100%;
-     flex-direction: column;
-    
-   }
+  
    
   .img_certificado{
      width: 150px;
